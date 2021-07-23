@@ -3,9 +3,27 @@ html
   head
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title= title
-    link(rel="stylesheet", href="/bootstrap/css/amelia.bootstrap.css")
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet", href="/bootstrap/css/amelia.bootstrap.css")
+  
   body
+    .navbar.navbar-default.navbar-fixed-top 
+      .container 
+        .navbar-header 
+          a.navbar-brand(href='/') B-Rating 
+          button.navbar-toggle(type='button', date-toggle='collapse', data-target='#navbar-main') 
+            span.icon-bar 
+            span.icon-bar 
+            span.icon-bar 
+          #navbar-main.navbar-collapse.collapse 
+            ul.nav.navbar-nav 
+              li 
+                a(href='/about/') О нас
+  .container.cont
     block content
+    footer 
+        .row 
+          .col-xs-12 
+            smal &copy; EHGWRabbit 2021
     script(src='/javascript/jquery.js')
     script(src='/bootstrap/js/bootstrap.min.js')

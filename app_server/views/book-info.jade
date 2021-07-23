@@ -1,0 +1,329 @@
+extends layout 
+block content 
+    .row.page-header 
+        .col-lg-12 
+            h1 Властелин колец
+    .row 
+        .col-xs-12.col-md-9 
+            .row 
+                .col-xs-12.col-md-6 
+                    p.rating 
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                    p https://superbook.com 
+                    .panel.panel-primary 
+                        .panel-heading 
+                            h2.panel-title Доступность 
+                        .panel-body 
+                            p https://superbook.com 
+                            p https://mybook.com
+                            p https://nlobook.com
+                    .panel.panel-primary 
+                        .panel-heading 
+                            h2.panel-title Что интересного
+                        .panel-body 
+                            span.label.label-warning 
+                                span.plyphicon.glypicon-ok 
+                                | &nbsp;Cюжет
+                            | &nbsp;
+                            span.label.label-warning 
+                                span.glypicon.glypicon-ok 
+                                | &nbsp;Оформление
+                            | &nbsp;
+                            span.label.label-warning 
+                                span.glyphicon.glyphicon-ok 
+                                | &nbsp;Качество
+                            | &nbsp;
+                .col-xs-12.col-md-6.location-map 
+                    .panel.panel-primary
+                        .panel-heading 
+                            h2.panel-title Обложка
+                        .panel-body 
+                            img.img-responsive.img-rounded(src='images/vk.jpeg')
+                .col-xs-12.col-md-12
+                    p Если вам есть что сказать или поделиться своим мнением - напишите отзыв! 
+                
+    .row 
+        .col-xs-12 
+            .panel.panel-primary.review-panel 
+                .panel-heading 
+                    a.btn.btn-default.pull-right(href='/book/review/new') Добавить отзыв
+                    h2.panel-title Отзывы
+                .panel-body.review-container 
+                    .row 
+                        .review 
+                            .well.well-sm.review-header 
+                                span.rating 
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                span.reviewAuthor Андрей
+                                small.reviewTimestamp    16 июля 2021
+                            .col-xs-12 
+                                p Офигенная книга! 
+                    .row 
+                        .review 
+                            .well.well-sm.review-header 
+                                span.rating
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star-empty
+                                    span.glyphicon.glyphicon-star-empty
+                                    span.glyphicon.glyphicon-star-empty
+                                span.reviewAuthor Евгений
+                                small.reviewTimestamp     14 июля 2021
+                            .col-xs-12 
+                                p На любителя 
+
+
+
+
+
+
+    .row.page-header 
+        .col-lg-12 
+            h1 Песнь льда и огня
+    .row 
+        .col-xs-12.col-md-9 
+            .row 
+                .col-xs-12.col-md-6 
+                    p.rating 
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                    p https://superbook.com 
+                    .panel.panel-primary 
+                        .panel-heading 
+                            h2.panel-title Доступность 
+                        .panel-body 
+                            p https://superbook.com 
+                            p https://mybook.com
+                            p https://nlobook.com
+                    .panel.panel-primary 
+                        .panel-heading 
+                            h2.panel-title Что интересного
+                        .panel-body 
+                            span.label.label-warning 
+                                span.plyphicon.glypicon-ok 
+                                | &nbsp;Cюжет
+                            | &nbsp;
+                            span.label.label-warning 
+                                span.glypicon.glypicon-ok 
+                                | &nbsp;Оформление
+                            | &nbsp;
+                            span.label.label-warning 
+                                span.glyphicon.glyphicon-ok 
+                                | &nbsp;Качество
+                            | &nbsp;
+                .col-xs-12.col-md-6.location-map 
+                    .panel.panel-primary
+                        .panel-heading 
+                            h2.panel-title Обложка
+                        .panel-body 
+                            img.img-responsive.img-rounded(src='images/gt.jpeg')
+                .col-xs-12.col-md-12
+                    p Если вам есть что сказать или поделиться своим мнением - напишите отзыв! 
+                
+    .row 
+        .col-xs-12 
+            .panel.panel-primary.review-panel 
+                .panel-heading 
+                    a.btn.btn-default.pull-right(href='/book/review/new') Добавить отзыв
+                    h2.panel-title Отзывы
+                .panel-body.review-container 
+                    .row 
+                        .review 
+                            .well.well-sm.review-header 
+                                span.rating 
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                span.reviewAuthor Иван
+                                small.reviewTimestamp    16 июля 2021
+                            .col-xs-12 
+                                p Офигенная книга! 
+                    .row 
+                        .review 
+                            .well.well-sm.review-header 
+                                span.rating
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star-empty
+                                    span.glyphicon.glyphicon-star-empty
+                                    span.glyphicon.glyphicon-star-empty
+                                span.reviewAuthor Евгений
+                                small.reviewTimestamp     14 июля 2021
+                            .col-xs-12 
+                                p На любителя 
+    
+
+    .row.page-header 
+        .col-lg-12 
+            h1 Меч и Радуга
+    .row 
+        .col-xs-12.col-md-9 
+            .row 
+                .col-xs-12.col-md-6 
+                    p.rating 
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                    p https://superbook.com 
+                    .panel.panel-primary 
+                        .panel-heading 
+                            h2.panel-title Доступность 
+                        .panel-body 
+                            p https://superbook.com 
+                            p https://mybook.com
+                            p https://nlobook.com
+                    .panel.panel-primary 
+                        .panel-heading 
+                            h2.panel-title Что интересного
+                        .panel-body 
+                            span.label.label-warning 
+                                span.plyphicon.glypicon-ok 
+                                | &nbsp;Cюжет
+                            | &nbsp;
+                            span.label.label-warning 
+                                span.glypicon.glypicon-ok 
+                                | &nbsp;Оформление
+                            | &nbsp;
+                            span.label.label-warning 
+                                span.glyphicon.glyphicon-ok 
+                                | &nbsp;Качество
+                            | &nbsp;
+                .col-xs-12.col-md-6.location-map 
+                    .panel.panel-primary
+                        .panel-heading 
+                            h2.panel-title Обложка
+                        .panel-body 
+                            img.img-responsive.img-rounded(src='images/mr.jpeg')
+                .col-xs-12.col-md-12
+                    p Если вам есть что сказать или поделиться своим мнением - напишите отзыв! 
+                
+    .row 
+        .col-xs-12 
+            .panel.panel-primary.review-panel 
+                .panel-heading 
+                    a.btn.btn-default.pull-right(href='/book/review/new') Добавить отзыв
+                    h2.panel-title Отзывы
+                .panel-body.review-container 
+                    .row 
+                        .review 
+                            .well.well-sm.review-header 
+                                span.rating 
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                span.reviewAuthor Настя
+                                small.reviewTimestamp    16 июля 2021
+                            .col-xs-12 
+                                p Офигенная книга! 
+                    .row 
+                        .review 
+                            .well.well-sm.review-header 
+                                span.rating
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star-empty
+                                    span.glyphicon.glyphicon-star-empty
+                                    span.glyphicon.glyphicon-star-empty
+                                span.reviewAuthor Евгений
+                                small.reviewTimestamp     14 июля 2021
+                            .col-xs-12 
+                                p На любителя 
+
+    
+
+    .row.page-header 
+        .col-lg-12 
+            h1 Гарри Поттер
+    .row 
+        .col-xs-12.col-md-9 
+            .row 
+                .col-xs-12.col-md-6 
+                    p.rating 
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                    p https://superbook.com 
+                    .panel.panel-primary 
+                        .panel-heading 
+                            h2.panel-title Доступность 
+                        .panel-body 
+                            p https://superbook.com 
+                            p https://mybook.com
+                            p https://nlobook.com
+                    .panel.panel-primary 
+                        .panel-heading 
+                            h2.panel-title Что интересного
+                        .panel-body 
+                            span.label.label-warning 
+                                span.plyphicon.glypicon-ok 
+                                | &nbsp;Cюжет
+                            | &nbsp;
+                            span.label.label-warning 
+                                span.glypicon.glypicon-ok 
+                                | &nbsp;Оформление
+                            | &nbsp;
+                            span.label.label-warning 
+                                span.glyphicon.glyphicon-ok 
+                                | &nbsp;Качество
+                            | &nbsp;
+                .col-xs-12.col-md-6.location-map 
+                    .panel.panel-primary
+                        .panel-heading 
+                            h2.panel-title Обложка
+                        .panel-body 
+                            img.img-responsive.img-rounded(src='images/hp.jpeg')
+                .col-xs-12.col-md-12
+                    p Если вам есть что сказать или поделиться своим мнением - напишите отзыв! 
+                
+    .row 
+        .col-xs-12 
+            .panel.panel-primary.review-panel 
+                .panel-heading 
+                    a.btn.btn-default.pull-right(href='/book/review/new') Добавить отзыв
+                    h2.panel-title Отзывы
+                .panel-body.review-container 
+                    .row 
+                        .review 
+                            .well.well-sm.review-header 
+                                span.rating 
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                span.reviewAuthor Настя
+                                small.reviewTimestamp    16 июля 2021
+                            .col-xs-12 
+                                p Офигенная книга! 
+                    .row 
+                        .review 
+                            .well.well-sm.review-header 
+                                span.rating
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star-empty
+                                    span.glyphicon.glyphicon-star-empty
+                                    span.glyphicon.glyphicon-star-empty
+                                span.reviewAuthor Евгений
+                                small.reviewTimestamp     14 июля 2021
+                            .col-xs-12 
+                                p На любителя 
