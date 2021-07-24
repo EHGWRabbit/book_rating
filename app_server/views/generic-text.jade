@@ -3,10 +3,7 @@ block content
     #banner.page-header 
         .row 
             .col-md-6.col-sm-12 
-                h1= thistle
+                h1= title
         .row 
             .col-md-6.col-sm-12 
-                p 
-                    | Приложение B-Rating призвано помочь вам в выборе подходящей литуратуры 
-                    | <br/><br/>
-                    | Здесь вы всегда можете отыскать то, что ищете!
+                p !{(content).replace(/\n/g, '<br/>')}
